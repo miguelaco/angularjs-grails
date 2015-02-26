@@ -35,7 +35,7 @@ class BootStrap {
                 .addToArmament(new Battery(location: "Upper gundeck", number: 30, caliber: 12, type: Battery.Type.CANNON))
                 .addToArmament(new Battery(location: "Quarterdeck", number: 12, caliber: 12, type: Battery.Type.CANNON))
                 .addToArmament(new Battery(location: "Forecastle", number: 2, caliber: 12, type: Battery.Type.CANNON))
-                .addToArmament(location: "Forecastle", number: 2, caliber: 68, type: Battery.Type.CARRONADE)
+                .addToArmament(new Battery(location: "Forecastle", number: 2, caliber: 68, type: Battery.Type.CARRONADE))
                 .save(failOnError: true)
     }
 
